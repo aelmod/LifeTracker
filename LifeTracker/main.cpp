@@ -4,8 +4,8 @@
 
 int main(int argc, char *argv[])
 {
-	QApplication a(argc, argv);
-	LifeTracker w;
-	w.show();
-	return a.exec();
+	QApplication application(argc, argv);
+	LifeTracker life_tracker;
+	life_tracker.hide();
+	return application.exec();
 }
